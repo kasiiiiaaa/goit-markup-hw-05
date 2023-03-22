@@ -73,7 +73,9 @@
       <section class="section effect">
         <div class="container first-section-container">
           <h1 class="effect-size">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="button-1">Zamów usługę</button>
+          <button type="button" class="button-1" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
       </section>
       <section class="section">
@@ -447,5 +449,11 @@
         </div>
       </footer>
     </main>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>x</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
